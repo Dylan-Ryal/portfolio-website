@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+header {
+    height: 4.0625rem;
+    width: 100%;
+    position: fixed;
+}
+
+h1, nav {
+    display: inline-block;
+}
+
+h1 {
+    color: #1b5e6b;
+    margin: 0;
+    margin-left: 0.375rem;
+    padding: auto;
+    font-size: 3rem;
+    font-family: "Noto serif", serif;
+    font-style: italic;
+}
+
+nav {
+    height: 100%;
+    float: right;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #1b5e6b;
+    font-size: 1.5rem;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        display: none;
+    }
+}
